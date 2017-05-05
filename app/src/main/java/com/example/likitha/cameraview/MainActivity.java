@@ -74,9 +74,9 @@ public class MainActivity extends AppCompatActivity {
     ImageView image;  //Instance of ImageView class
     private ProgressDialog detectionProgressDialog;  //This is used to show process dialog on the screen
     private FaceServiceClient faceServiceClient =
-            new FaceServiceRestClient("ebbd4d075c694d4ab3e4622ab5dca83f");  //Face Detection class instance initialized using Face API key
+            new FaceServiceRestClient("PLACE YOUR FACE API KEY HERE");  //Face Detection class instance initialized using Face API key
     private EmotionServiceClient emotionServiceClient =
-            new EmotionServiceRestClient("d529af2695324337bc464c7b8b795107");  //Emotion Recognition class instance initialized using Emotion API key
+            new EmotionServiceRestClient("PLACE YOUR EMOTION API KEY HERE");  //Emotion Recognition class instance initialized using Emotion API key
     TextView textView, textView2;  //Instances of TextView class
     TextToSpeech talk;  //An instance  of TextToSpeech class
     static int tracker = 1;  //A counter of that keeps track of tap action
